@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: ef821b8bd0a7f454591f802351b36f49
+timeCreated: 1468849899
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: barrel
+    100002: cratemerged1
+    100004: //RootNode
+    100006: cratesmall
+    100008: cratesmerged2
+    100010: cratessingle
+    100012: cratetall
+    100014: cratewide
+    100016: piece1
+    100018: piece1_1
+    100020: piece2
+    100022: piece2_1
+    100024: piece3
+    100026: piece4
+    100028: piece5
+    100030: pieces
+    400000: barrel
+    400002: cratemerged1
+    400004: //RootNode
+    400006: cratesmall
+    400008: cratesmerged2
+    400010: cratessingle
+    400012: cratetall
+    400014: cratewide
+    400016: piece1
+    400018: piece1_1
+    400020: piece2
+    400022: piece2_1
+    400024: piece3
+    400026: piece4
+    400028: piece5
+    400030: pieces
+    2300000: barrel
+    2300002: cratemerged1
+    2300004: cratesmall
+    2300006: cratesmerged2
+    2300008: cratetall
+    2300010: cratewide
+    2300012: piece1
+    2300014: piece1_1
+    2300016: piece2
+    2300018: piece2_1
+    2300020: piece3
+    2300022: piece4
+    2300024: piece5
+    3300000: barrel
+    3300002: cratemerged1
+    3300004: cratesmall
+    3300006: cratesmerged2
+    3300008: cratetall
+    3300010: cratewide
+    3300012: piece1
+    3300014: piece1_1
+    3300016: piece2
+    3300018: piece2_1
+    3300020: piece3
+    3300022: piece4
+    3300024: piece5
+    4300000: cratetall
+    4300002: cratewide
+    4300004: cratesmall
+    4300006: barrel
+    4300008: cratemerged1
+    4300010: cratesmerged2
+    4300012: piece1
+    4300014: piece2
+    4300016: piece2_1
+    4300018: piece3
+    4300020: piece1_1
+    4300022: piece4
+    4300024: piece5
+    6400000: barrel
+    6400002: cratemerged1
+    6400004: cratesmall
+    6400006: cratesmerged2
+    6400008: cratetall
+    6400010: cratewide
+    6400012: piece1
+    6400014: piece1_1
+    6400016: piece2
+    6400018: piece2_1
+    6400020: piece3
+    6400022: piece4
+    6400024: piece5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
