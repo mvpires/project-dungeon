@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: 49246a8a128bcd347a57133ab1f461d6
-timeCreated: 1483105476
+timeCreated: 1483447933
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: skull_door_sprite_sheet_0
+    21300002: skull_door_sprite_sheet_1
+    21300004: skull_door_sprite_sheet_2
+    21300006: skull_door_sprite_sheet_3
+    21300008: skull_door_sprite_sheet_4
+    21300010: skull_door_sprite_sheet_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,13 +32,13 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 1
   lightmap: 0
   rGBM: 0
@@ -47,11 +53,89 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: -1
+  textureType: 0
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: skull_door_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 266.66666
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skull_door_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 266.66666
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skull_door_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 266.66666
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skull_door_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 266.66666
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skull_door_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 0
+        width: 266.66666
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: skull_door_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 266.66666
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
