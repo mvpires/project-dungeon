@@ -5,14 +5,14 @@ public class EnemyBehavior : MonoBehaviour
 {
 
     private Animation mAnimation;
-    private NavMeshAgent mNavMeshAgent;
+    private UnityEngine.AI.NavMeshAgent mNavMeshAgent;
     public GameObject mPlayer;
     private float mAttackDistance;
 
     // Use this for initialization
     void Start()
     {
-        mNavMeshAgent = GetComponent<NavMeshAgent>();
+        mNavMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         mAnimation = GetComponent<Animation>();
     }
 
