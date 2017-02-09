@@ -1,2 +1,4 @@
-# project-dungeon
-A short RPG game being made with Unity
+## project-dungeon
+#A short Hack n' Slash game being made with Unity
+
+
