@@ -11,6 +11,7 @@ public class PlayerBehavior : MonoBehaviour {
     public bool mTurnedLeft;
     public bool mTurnedRight;
     public float mSpeed;
+    public BoxCollider attackRange;
     private CharacterController mCharacterController;
  
 
@@ -27,6 +28,7 @@ public class PlayerBehavior : MonoBehaviour {
 
         mAnimation = GetComponent<Animation>();
         mCharacterController = GetComponent<CharacterController>();
+        attackRange = GetComponent<BoxCollider>();
 
             mAnimation["Wait"].layer = 1;
             mAnimation["Wait"].wrapMode = WrapMode.Loop;
@@ -58,7 +60,7 @@ public class PlayerBehavior : MonoBehaviour {
             mAnimation["Walk"].speed = 2F;
         }
 
-        if (mIsAttacking)
+        if (GameManager.Instance.checkAttackingStatus() == true)
         {
             Debug.Log("PUUURGE");
             mAnimation.Play("Attack");
@@ -69,9 +71,21 @@ public class PlayerBehavior : MonoBehaviour {
 
     }
 
+    void onTriggerEnter(Collider collider)
+    {
+        if(collider == attackRange)
+        {
+            Debug.Log("asudhaiushd");
+        }
+    }
+
     public void Attack()
     {
-        mIsAttacking = true;
+        GameManager.Instance.setAttackingStatus(true);
+        if(GameManager.Instance.IsInAttackRange() == true)
+        {
+
+        }
         
     }
 
@@ -123,7 +137,7 @@ public class PlayerBehavior : MonoBehaviour {
 
     public void AttackButtonUp()
     {
-        mIsAttacking = false;
+        GameManager.Instance.setAttackingStatus(false);
         Debug.Log("Not Attacking");
     }
 

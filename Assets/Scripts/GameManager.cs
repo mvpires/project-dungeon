@@ -1,15 +1,53 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public static GameManager instance;
+    private bool isInAttackRange = false;
+    private bool isAttacking = false;
+
+    public static GameManager Instance
+    {
+        get{
+            if(instance == null)
+            {
+                instance = new GameObject("Game Manager").AddComponent<GameManager>();
+            }
+
+            return instance;
+        }
+    }
+
+    public void OnApplicationQuit()
+    {
+        instance = null;
+    }
+
+    public void SetAttackRangeTrue()
+    {
+        isInAttackRange = true;
+    }
+
+    public void SetAttackRangeFalse()
+    {
+        isInAttackRange = false;
+    }
+
+    public bool IsInAttackRange()
+    {
+        return isInAttackRange;
+    }
+
+    public void setAttackingStatus(bool arg)
+    {
+        isAttacking = arg;
+    }
+
+    public bool checkAttackingStatus()
+    {
+        return isAttacking;
+    }
+
 }
