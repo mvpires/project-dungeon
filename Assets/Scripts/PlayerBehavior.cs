@@ -60,7 +60,7 @@ public class PlayerBehavior : MonoBehaviour {
             mAnimation["Walk"].speed = 2F;
         }
 
-        if (GameManager.Instance.checkAttackingStatus() == true)
+        if (GameManager.Instance.CheckAttackingStatus() == true)
         {
             Debug.Log("PUUURGE");
             mAnimation.Play("Attack");
@@ -69,14 +69,6 @@ public class PlayerBehavior : MonoBehaviour {
         }
 
 
-    }
-
-    void onTriggerEnter(Collider collider)
-    {
-        if(collider == attackRange)
-        {
-            Debug.Log("asudhaiushd");
-        }
     }
 
     public void Attack()

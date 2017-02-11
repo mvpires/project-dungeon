@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     private bool isInAttackRange = false;
     private bool isAttacking = false;
+    private string attackRangeTag = "Player Attack Range";
+    private string enemySkeletonTag = "Skeleton";
 
     public static GameManager Instance
     {
@@ -45,9 +47,18 @@ public class GameManager : MonoBehaviour
         isAttacking = arg;
     }
 
-    public bool checkAttackingStatus()
+    public bool CheckAttackingStatus()
     {
         return isAttacking;
     }
 
+    public string GetAttackRangeTag()
+    {
+        return attackRangeTag;
+    }
+
+    public string GetEnemySkeletonTag()
+    {
+        return enemySkeletonTag;
+    }
 }
