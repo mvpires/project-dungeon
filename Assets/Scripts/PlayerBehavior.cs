@@ -62,7 +62,6 @@ public class PlayerBehavior : MonoBehaviour {
 
         if (GameManager.Instance.CheckAttackingStatus() == true)
         {
-            Debug.Log("PUUURGE");
             mAnimation.Play("Attack");
             mAnimation["Attack"].speed = 1F;
 
@@ -76,9 +75,12 @@ public class PlayerBehavior : MonoBehaviour {
         GameManager.Instance.setAttackingStatus(true);
         if(GameManager.Instance.IsInAttackRange() == true)
         {
-
+            Debug.Log("ATACA CARAI");
+            GameManager.Instance.SetAttackHit(true);
         }
+
         
+
     }
 
     public void Defend()
@@ -92,7 +94,6 @@ public class PlayerBehavior : MonoBehaviour {
 
         if(!mTurnedLeft)
         {
-            Debug.Log("Left");
             gameObject.transform.Rotate(0f, -180f, 0f);
             mTurnedLeft = true;
         }
@@ -107,7 +108,6 @@ public class PlayerBehavior : MonoBehaviour {
 
         if (!mTurnedRight)
         {
-            Debug.Log("Right");
             gameObject.transform.Rotate(0f, 180f, 0f);
             mTurnedRight = true;
         }
@@ -130,6 +130,7 @@ public class PlayerBehavior : MonoBehaviour {
     public void AttackButtonUp()
     {
         GameManager.Instance.setAttackingStatus(false);
+        GameManager.Instance.SetAttackHit(false);
         Debug.Log("Not Attacking");
     }
 

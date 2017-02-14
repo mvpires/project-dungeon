@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     private bool isAttacking = false;
     private string attackRangeTag = "Player Attack Range";
     private string enemySkeletonTag = "Skeleton";
+    private bool attackHit = false;
 
     public static GameManager Instance
     {
@@ -27,14 +28,9 @@ public class GameManager : MonoBehaviour
         instance = null;
     }
 
-    public void SetAttackRangeTrue()
+    public void SetAttackRange(bool arg)
     {
-        isInAttackRange = true;
-    }
-
-    public void SetAttackRangeFalse()
-    {
-        isInAttackRange = false;
+        isInAttackRange = arg;
     }
 
     public bool IsInAttackRange()
@@ -60,5 +56,15 @@ public class GameManager : MonoBehaviour
     public string GetEnemySkeletonTag()
     {
         return enemySkeletonTag;
+    }
+
+    public bool CheckAttackHit()
+    {
+        return attackHit;
+    }
+
+    public void SetAttackHit(bool arg)
+    {
+        attackHit = arg;
     }
 }
