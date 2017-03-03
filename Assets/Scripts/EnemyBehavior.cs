@@ -71,27 +71,32 @@ public class EnemyBehavior : MonoBehaviour
         {
             if (GameManager.Instance.CheckAttackHit())
             {
-                life -= 25;
-                GameManager.Instance.SetAttackHit(false);
-                Debug.Log(life);
-                mNavMeshAgent.Stop();
-                mAnimation.Stop("Attack");
-                mAnimation.Play("Damage");
-
-                if (life == 0)
+                if (!isDead)
                 {
-                    isDead = true;
-                    mNavMeshAgent.Stop();
-                    mAnimation.Play("Death");
+                    if (life == 0)
+                    {
+                        isDead = true;
+                        mNavMeshAgent.Stop();
+                        mAnimation.Play("Death");
 
-                }
-                else
-                {
-                    mNavMeshAgent.Resume();
+                    }
+
+                    else {
+
+                        life -= 25;
+                        GameManager.Instance.SetAttackHit(false);
+                        Debug.Log(life);
+                        mNavMeshAgent.Stop();
+                        mAnimation.Stop("Attack");
+                        mAnimation.Play("Damage");
+                        mNavMeshAgent.Resume();
+                    }
+
                 }
 
                 Debug.Log("BATEU");
             }
+            
         }
     }
 
