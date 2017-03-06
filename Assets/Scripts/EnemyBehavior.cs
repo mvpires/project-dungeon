@@ -76,6 +76,8 @@ public class EnemyBehavior : MonoBehaviour
                     if (life == 0)
                     {
                         isDead = true;
+                        GameManager.Instance.setDoorStatus(true);
+                        GameObject.Find("Door Room 1").GetComponent<DoorBehavior>().openDoor();
                         mNavMeshAgent.Stop();
                         mAnimation.Play("Death");
 

@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     private string attackRangeTag = "Player Attack Range";
     private string enemySkeletonTag = "Skeleton";
     private bool attackHit = false;
+    private bool openDoor = false;
+    private int levelNumber = 0;
 
     public static GameManager Instance
     {
@@ -66,5 +68,15 @@ public class GameManager : MonoBehaviour
     public void SetAttackHit(bool arg)
     {
         attackHit = arg;
+    }
+
+    public bool CheckDoor()
+    {
+        return openDoor;
+    }
+
+    public void setDoorStatus(bool arg)
+    {
+        openDoor = arg;
     }
 }
