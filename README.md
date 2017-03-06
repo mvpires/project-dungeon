@@ -1,4 +1,21 @@
 # Project Dungeon
 ##A short Hack n' Slash game being made with Unity
 
+###This is a personal project being made using free assets from Unity Asset Store and Internet with the main purpose being to study combat mechanics, simple AI behavior and simple environment design.
+
+###Asset Store Assets used:
+#### - Player Character: [Animated Knight and Slime Monster](https://www.assetstore.unity3d.com/en/#!/content/24471)
+#### - Enemy Skeletons: [Fantasy Monster - Skeleton](https://www.assetstore.unity3d.com/en/#!/content/35635)
+#### - Some Environment props: [Make Your Fantasy Game - Lite](https://www.assetstore.unity3d.com/en/#!/content/8312)
+#### - Wall textures: [Seamless Texture Pack](https://www.assetstore.unity3d.com/en/#!/content/21934)
+#### - Boss and 3D Torches: [Monster 3](https://www.assetstore.unity3d.com/en/#!/content/48933)
+
+###Non-Asset Store:
+#### - Blue Boss Door: [Bearish Art](http://bearish-art.blogspot.com.br/2015/08/blue-dungeon.html)
+#### - Level Wooden Door: [Soruve's Game Materials](https://rmgamematerial.wordpress.com/2011/04/10/fsmtiles/)
+
+###Used in previous versions:
+#### - 2D Torches: [Bearish Art](http://bearish-art.blogspot.com.br/2015/08/blue-dungeon.html)
+#### - Boss: [Overlord](https://www.assetstore.unity3d.com/en/#!/content/48768)
+
 
