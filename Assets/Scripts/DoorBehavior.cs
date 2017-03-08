@@ -11,14 +11,7 @@ public class DoorBehavior : MonoBehaviour {
 
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
-
-
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     public void openDoor()
     {
