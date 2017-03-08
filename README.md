@@ -3,6 +3,8 @@
 
 ###This is a personal project being made using free assets from Unity Asset Store and Internet with the main purpose being to study combat mechanics, simple AI behavior and simple environment design.
 
+![](https://github.com/mvpires/project-dungeon/blob/master/Assets/Images/projectdg.png)
+
 ###Asset Store Assets used:
 #### - Player Character: [Animated Knight and Slime Monster](https://www.assetstore.unity3d.com/en/#!/content/24471)
 #### - Enemy Skeletons: [Fantasy Monster - Skeleton](https://www.assetstore.unity3d.com/en/#!/content/35635)
