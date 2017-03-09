@@ -15,11 +15,12 @@
 ###Non-Asset Store:
 #### - Blue Boss Door: [Bearish Art](http://bearish-art.blogspot.com.br/2015/08/blue-dungeon.html)
 #### - Level Wooden Door: [Soruve's Game Materials](https://rmgamematerial.wordpress.com/2011/04/10/fsmtiles/)
-#### - Pixel Shield (Button): [Stock Unlimited](http://images.cdn2.stockunlimited.net/clipart/pixel-art-shield_1958392.jpg)
-#### - Pixel Sword (Button): [Photoshop Adventures](http://photoshopadventures.com/?p=56)
+#### - UI Buttons: [Kenney's Assets](https://kenney.nl/assets/onscreen-controls)
 
 ###Used in previous versions:
 #### - 2D Torches: [Bearish Art](http://bearish-art.blogspot.com.br/2015/08/blue-dungeon.html)
 #### - Boss: [Overlord](https://www.assetstore.unity3d.com/en/#!/content/48768)
+#### - Pixel Shield (Button): [Stock Unlimited](http://images.cdn2.stockunlimited.net/clipart/pixel-art-shield_1958392.jpg)
+#### - Pixel Sword (Button): [Photoshop Adventures](http://photoshopadventures.com/?p=56)
 
 
